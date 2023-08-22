@@ -94,11 +94,6 @@ class Payload():
         print(len(self.merchantAccount_tam))   #sem o len - vai imprimir por exemplo 0014BR.GOV.BCB.PIX0124emailteste2022@gmail.com - 24 é o tamanho da chave + chave pix
         print(self.transactionAmount_tam)      #retorna 0510.00 - tamanho valor(5) + valor(10.00) + 0 a esquerda pois o valor é <= 10
 
-if __name__ == '__main__':
-    p = Payload('Leonardo Calheiros', '+5544997472529', '0.50', 'Marialva', 'LOJA01')
-    p.gerarPayload()
-
-
 
 
 
